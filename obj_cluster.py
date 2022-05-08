@@ -58,7 +58,7 @@ def measurepair_distance5(seq1, seq2):
 		if each == seq2[i]:
 			if "?" not in [each,seq2[i]]:
 				num_s += 1
-	perc_d = Decimal(num_d) / Decimal(num_d + num_s)
+	perc_d = Decimal(num_d) / Decimal( num_s)
 	return perc_d
 
 
