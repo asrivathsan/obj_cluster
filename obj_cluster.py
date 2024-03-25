@@ -43,7 +43,7 @@ def measurepair_distancem(seq1, seq2):
 		if ele_x==ele_y:
 			if ele_x in ["A","T","G","C","N"]:
 					num_s += 1
-	perc_d = Decimal(num_d) / Decimal(num_d + num_s)
+	perc_d = Decimal(num_d) / Decimal( num_s)
 	return perc_d
 
 
